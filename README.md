@@ -56,9 +56,9 @@ The following table lists leading enterprise SaaS Customer Data Platforms sorted
 
 ## 🔓 Open-Source CDP Frameworks & GitHub Projects
 
-The following table lists top open-source Customer Data Platforms, Segment alternatives, and data collection pipelines sorted by **GitHub Star Count (descending)**:
+The following table lists top open-source Customer Data Platforms, Segment alternatives, and data collection pipelines sorted by **GitHub Stars_Count (descending)**:
 
-| Repo | Description | Stars |
+| Repo | Description | GitHub_Stars |
 | :--- | :--- | :--- |
 | **[Odoo CRM & Marketing](https://github.com/odoo/odoo)** | **Open-source suite featuring CRM & Customer Data Management.** Comprehensive platform for customer data, multi-channel marketing campaigns, lead scoring, and customer interaction analytics. | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) |
 | **[RudderStack](https://github.com/rudderlabs/rudder-server)** | **Mature warehouse-first open-source CDP.** Segment API-compatible event streaming, data pipelines, and reverse ETL engine for customer data warehouses. (ELv2 License). | [![Stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers) |
