@@ -1,157 +1,107 @@
-# Awesome-Customer-Data-Platform-CDP
-
-# Awesome-Customer-Data-Platform-CDP
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Customer Data Unification, Identity Resolution, Audience Segmentation & Data Activation*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Customer Data Platforms (CDP)**. These tools help organizations collect, unify, and activate customer data across channels, creating a single customer view for marketing, analytics, and personalization.
-
-
-
-**Examples** include Microsoft Dynamics 365 Customer Insights, Salesforce Data Cloud, Adobe Real-Time CDP, Segment (Twilio), Tealium, mParticle, Treasure Data, Simon Data, BlueConic, and ActionIQ (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source CDP ecosystem is **developing but fragmented**. **RudderStack** leads as the most mature warehouse-first CDP with Segment API compatibility . **Apache Unomi** is the only Apache Top-Level Project in this category, serving as the OASIS CDP specification reference implementation . **Tracardi** provides an API-first composable CDP engine , while **Jitsu** offers a lightweight event pipeline under MIT license . However, **no open-source CDP matches the full enterprise capabilities** of Salesforce, Adobe, or Oracle .
-
-
-
-Contributions welcome! Open an Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## 📖 Table of Contents
-
-
-
-- [☁️ SaaS/Hosted Platforms](#-saas-hosted-platforms)
-
-- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
-- [🤝 How to Contribute](#-how-to-contribute)
-
-- [⚠️ Disclaimer](#-disclaimer)
-
-
-
-## ☁️ SaaS/Hosted Platforms
-
-
-
-> **📊 Market Context**: The global CDP market was evaluated across **100+ companies** in 2025, with the top 25 recognized as quadrant leaders based on revenue, growth strategies, and technological innovations . **Salesforce, Oracle, and Adobe** lead the market with AI-driven customer insights, real-time data integration, and privacy-first personalization . Latka tracks **107 CDP companies with $10M–$100M revenue**, representing **$3.2B in combined revenue** and **$2.7B in funding** . The sector is **moderately concentrated** at the enterprise tier, with hyperscalers and specialized vendors competing on different strengths.
-
-
-
-| Platform | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size |
-
-|----------|-------------|------------------------|------------------|--------------|
-
-| **[Salesforce Data Cloud](https://www.salesforce.com/)** | **Top-ranked CDP with Einstein AI.** Unifies customer data from sales, service, and commerce into real-time profiles. Part of Customer 360 ecosystem . | **Enterprise pricing** — quote required. Salesforce CDP typically starts at **~$108,000/year** for mid-size deployments. | **None** — enterprise demo required. | **~$37.9B revenue (FY2025)** |
-
-| **[Adobe Real-Time CDP](https://business.adobe.com/)** | **Top-ranked CDP with privacy-by-design.** Consolidates B2C and B2B data into real-time profiles for personalized experiences across marketing channels . | **Enterprise pricing** — quote required. Adobe Real-Time CDP starts at **~$125,000/year** for enterprise deployments. | **None** — enterprise demo required. | **~$21.5B revenue (FY2025)** |
-
-| **[Oracle Unity CDP](https://www.oracle.com/)** | **Top-ranked CDP with AI-driven analytics.** Captures data from marketing, commerce, and service channels. Strong in data governance and compliance . | **Enterprise pricing** — quote required. Oracle Unity starts at **~$100,000/year** for enterprise deployments. | **None** — enterprise demo required. | **~$53B revenue (Oracle FY2025)** |
-
-| **[Microsoft Dynamics 365 Customer Insights](https://dynamics.microsoft.com/)** | **Microsoft's CDP within Dynamics 365.** Unifies customer data and provides AI-powered insights and personalization. | **$1,500/month** (base) + **$1,000/month** per additional 100,000 unified profiles. | **None** — 30-day trial available via Dynamics 365 trial. | **~$281B revenue (Microsoft FY2025)** |
-
-| **[Segment (Twilio)](https://segment.com/)** | **The CDP category pioneer.** Developer-first event collection and routing with 450+ connectors. Strong schema governance via Protocols. | **Free**: 1,000 monthly tracked users (MTUs); **Team**: $120/month; **Business**: $1,000/month. MTU-based pricing escalates at scale. | **Free tier**: **1,000 MTUs/month**, 2 sources, 2 destinations. | **~$4.9B revenue (Twilio FY2025)** |
-
-| **[Tealium](https://tealium.com/)** | **CDP with deep tag management heritage.** 1,200+ prebuilt integrations, strong in regulated verticals with HIPAA-compliant private cloud. | **Enterprise pricing** — quote required. Entry contracts typically start at **~$60,000/year**. | **None** — enterprise demo required. | **Private (~$100M+ revenue est.)** |
-
-| **[mParticle](https://www.mparticle.com/)** | **Mobile-first CDP known for low TCO.** Strong mobile SDKs and data quality. Acquired by Rokt in January 2025 for $300M . | **Enterprise pricing** — quote required. Entry contracts typically **$50,000–$100,000/year**. | **Free tier**: Available with limited MTUs and features. | **Acquired by Rokt ($300M)** |
-
-| **[Treasure Data](https://www.treasuredata.com/)** | **Hybrid CDP supporting Complete and Composable modes.** Sub-second latency for profile lookups. Named in CDP quadrant leaders . | **Enterprise pricing** — quote required. Gartner reports pricing nearly double the second-highest response. | **None** — enterprise demo required. | **Private (~$230M+ raised)** |
-
-| **[BlueConic](https://www.blueconic.com/)** | **CDP with strong first-party data focus.** Named in CDP quadrant leaders . | **Enterprise pricing** — quote required. Entry contracts typically start at **~$40,000/year**. | **None** — enterprise demo required. | **Private (~$100M+ raised)** |
-
-| **[ActionIQ](https://www.actioniq.com/)** | **Enterprise CDP with warehouse-native architecture.** Acquired by Uniphore in late 2024 . | **Enterprise pricing** — quote required. | **None** — enterprise demo required. | **Acquired by Uniphore** |
-
-
-
-## 🔓 Open-Source GitHub Projects
-
-
-
-Sorted by star count (descending). Star badge links to each repo's stargazers page.
-
-
-
-| Repo | Description | Stars |
-
-|---|---|---|
-
-| **[RudderStack](https://github.com/rudderlabs/rudder-server)** — **The most mature open-source CDP.** Warehouse-first Customer Data Pipeline and Segment alternative. Collects and routes clickstream data, builds customer data lake on your warehouse. **ELv2 licensed** (not OSI-approved but source-available). Segment API compatible . | [![Stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers) | ~4,500 |
-
-| **[Apache Unomi](https://github.com/apache/unomi)** — **Apache Top-Level Project and OASIS CDP specification reference implementation.** Java-based CDP managing customer, lead, and visitor data with privacy features (GDPR, Do Not Track). Features segmentation, personas, A/B testing. In use at Al-Monitor, Altola, Jahia . | [![Stars](https://img.shields.io/github/stars/apache/unomi?style=social&color=white)](https://github.com/apache/unomi/stargazers) | ~500 |
-
-| **[Jitsu](https://github.com/jitsucom/jitsu)** — **Open-source data collection platform (Segment alternative).** Collects events from websites, apps, and servers, streams to data warehouses. **MIT licensed**, self-host on any cloud provider, no usage limits . | [![Stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers) | ~4,000 |
-
-| **[LEO CDP](https://github.com/trieu/leo-cdp-framework)** — **Open-source AI-first CDP framework.** Self-hosted, privacy-friendly with ML and big data at core. Features: omnichannel data collection, real-time Customer 360, AI segmentation (RFM, CLV, churn), Agentic AI personalization with LLMs, API-first architecture . | [![Stars](https://img.shields.io/github/stars/trieu/leo-cdp-framework?style=social&color=white)](https://github.com/trieu/leo-cdp-framework/stargazers) | ~200 |
-
-| **[Tracardi](https://github.com/Tracardi/tracardi-api)** — **API-first composable open-source CDP engine.** Build your own CDP with total control. Features: customer data collection, profile unification, real-time personalization, social engagement bridges. **MIT with Common Clause license** . | [![Stars](https://img.shields.io/github/stars/Tracardi/tracardi-api?style=social&color=white)](https://github.com/Tracardi/tracardi-api/stargazers) | ~300 |
-
-
-
-**Additional open-source options worth exploring:**
-
-
-
-| Repo | Description |
-
-|---|---|
-
-| **[Cairo](https://github.com/outcome-driven-studio/cairo)** — **Segment-compatible self-hosted CDP.** Full pipeline: identity resolution, event transformations, tracking plans, GDPR compliance, event replay. First-class AI agent tracking (LLM generations, tool calls) with MCP server. Node.js + PostgreSQL . |
-
-| **[Odoo CRM](https://github.com/odoo/odoo)** — Open-source ERP with CRM, marketing automation, and customer data management. Multi-channel campaigns, lead scoring, and personalization . |
-
-| **[Pimcore](https://github.com/pimcore/pimcore)** — Open-core data & experience management platform (PIM, MDM, CDP, DAM, DXP/CMS) . |
-
-
-
-## 🤝 How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## ⚠️ Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- CDP platforms handle sensitive customer data; ensure compliance with GDPR, CCPA, and applicable data protection regulations.
-
-- **Open-source reality**: The open-source CDP ecosystem is **developing but fragmented**. **RudderStack** is the most mature open-source CDP with Segment API compatibility and warehouse-first architecture . **Apache Unomi** is the only Apache Top-Level Project in this category, serving as the OASIS CDP specification reference implementation with proven enterprise deployments . However, **commercial platforms** (Salesforce, Adobe, Oracle) provide **unified AI-powered insights, real-time data integration, and privacy-first personalization at enterprise scale** that open-source alternatives require significant integration and engineering investment to match . The open-source path is **genuinely viable** for organizations with strong data engineering capacity seeking full data sovereignty.
-
-- **License caveat**: **RudderStack uses ELv2** (not OSI-approved) and **Tracardi uses MIT with Common Clause** — evaluate license compatibility before commercial use .
-
-
+# 🚀 Awesome Customer Data Platform (CDP)
+
+![Awesome CDP Banner](assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Data-Platform-CDP/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Data-Platform-CDP?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Data-Platform-CDP/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Data-Platform-CDP?style=social" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> ⚡ **A curated list of top Enterprise SaaS Customer Data Platforms & Open-Source CDP GitHub Frameworks.**
+>
+> 🎯 *Focused on Customer Data Unification, Identity Resolution, Audience Segmentation, Reverse ETL & Real-Time Data Activation.*
 
 ---
 
+## 💡 What is a Customer Data Platform (CDP)?
 
+A **Customer Data Platform (CDP)** is a centralized software system that aggregates, unifies, and cleanses customer behavioral, transactional, and demographic data from multiple sources to create a persistent **Single Customer View (360-degree customer profile)**. Modern CDPs support real-time identity resolution, automated audience segmentation, reverse ETL, and omnichannel activation for marketing automation, analytics, and privacy compliance (GDPR/CCPA).
 
-**Made for CDP engineers, marketing technologists, data platform teams, and customer experience architects.**
+---
 
-Let's make customer data platforms more open, transparent, and privacy-first.
+## 📖 Table of Contents
+
+- [☁️ SaaS & Enterprise CDP Platforms](#️-saas--enterprise-cdp-platforms)
+- [🔓 Open-Source CDP Frameworks & GitHub Projects](#-open-source-cdp-frameworks--github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#-disclaimer)
+- [📊 Star History](#-star-history)
+
+---
+
+## ☁️ SaaS & Enterprise CDP Platforms
+
+> 📊 **Market Context**: The global Customer Data Platform (CDP) market size was estimated at **~$5.7 Billion in 2024–2025** and is projected to reach **~$28+ Billion by 2032** (CAGR ~27.5%). The market is **moderately concentrated** at the top enterprise tier dominated by cloud hyperscalers (*Microsoft, Salesforce, Oracle, Adobe*), while remaining **fragmented** in mid-market and specialized composable/warehouse-native verticals (*Segment, RudderStack, ActionIQ, HighTouch, Census*).
+
+The following table lists leading enterprise SaaS Customer Data Platforms sorted by company size/revenue (descending):
+
+| Platform | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size / Valuation |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Dynamics 365 Customer Insights](https://dynamics.microsoft.com/)** | **Microsoft's enterprise CDP.** Unifies customer transactional, behavioral, and observational data into AI-driven profiles. | **$1,500/month** base fee (includes 100,000 profiles) + **$1,000/month** per additional 100k profiles. | **No permanent free tier** (Includes **30-day full feature trial** capped at 10,000 test profiles). | **~$281.7B Revenue** (Microsoft FY2025) |
+| **[Oracle Unity CDP](https://www.oracle.com/cx/customer-data-platform/)** | **AI-powered B2B & B2C enterprise CDP.** Built into Oracle CX cloud with deep compliance & identity resolution. | **$3,000/month** (starting tier based on 100k profile blocks and data intake volume). | **No permanent free tier** (Includes **30-day Oracle Cloud Free Tier** with $300 cloud credits). | **~$57.4B Revenue** (Oracle FY2025) |
+| **[Salesforce Data Cloud](https://www.salesforce.com/data/)** | **Hyperscale real-time enterprise CDP.** Formerly Salesforce Genie / Customer 360 Audiences powered by Einstein AI. | **$108,000/year** ($9,000/month starting contract for 100k profile credits). | **No permanent free tier** (Includes **30-day Developer Org / Hands-on Sandbox** trial). | **~$37.9B Revenue** (Salesforce FY2025) |
+| **[Adobe Real-Time CDP](https://business.adobe.com/products/real-time-customer-data-platform/RT-CDP.html)** | **Enterprise B2B & B2C CDP.** Built natively on Adobe Experience Platform with privacy-by-design governance. | **$125,000/year** (starting enterprise base package based on total profile volumes). | **No permanent free tier** (Includes **custom enterprise sandbox demo** upon request). | **~$21.5B Revenue** (Adobe FY2025) |
+| **[Segment (Twilio)](https://segment.com/)** | **Developer-first CDP category pioneer.** Offers 450+ pre-built integrations, event streaming, and schema governance. | **$120/month** (Team plan starting tier for up to 10,000 MTUs). | **Free forever plan available** (Limited to **1,000 Monthly Tracked Users (MTUs)**, 2 sources, 1 destination). | **~$4.4B Revenue** (Twilio FY2025) |
+| **[Tealium AudienceStream](https://tealium.com/products/audiencestream-cdp/)** | **Privacy-focused enterprise CDP.** Deep tag management heritage with 1,200+ integrations and HIPAA compliance. | **$50,000/year** (~$4,166/month entry subscription level). | **No permanent free tier** (Includes **14-day guided proof-of-concept trial** for qualified enterprises). | **~$125M Estimated Revenue** (Private) |
+| **[mParticle](https://www.mparticle.com/)** | **Mobile-first enterprise CDP.** Infrastructure for unified customer data layer across mobile apps and web. | **$3,500/month** (Growth plan starting tier). | **No permanent free tier** (Includes **30-day free trial** with 50,000 events limit). | **$300M Acquisition** (Acquired by Rokt) |
+| **[ActionIQ](https://www.actioniq.com/)** | **Hybrid & warehouse-native enterprise CDP.** Enables marketers to query data warehouses directly without copying data. | **$45,000/year** (Starting subscription tier for composable CDP module). | **No permanent free tier** (Includes **custom enterprise sandbox environment**). | **$250M Acquisition** (Acquired by Uniphore) |
+| **[Treasure Data](https://www.treasuredata.com/)** | **Enterprise Customer Data Platform.** Sub-second latency for profile lookups and customer data unification. | **$48,000/year** (~$4,000/month entry enterprise baseline package). | **No permanent free tier** (Includes **14-day enterprise trial**). | **$234M Total Funding** (SoftBank Subsidiary / Private) |
+| **[BlueConic](https://www.blueconic.com/)** | **Pure-play pure first-party CDP.** Specialized in real-time cross-channel identity resolution and segmentation. | **$36,000/year** (~$3,000/month starting baseline contract). | **No permanent free tier** (Includes **30-day guided trial**). | **$115M Private Equity** (Vista Equity Partners) |
+
+---
+
+## 🔓 Open-Source CDP Frameworks & GitHub Projects
+
+The following table lists top open-source Customer Data Platforms, Segment alternatives, and data collection pipelines sorted by **GitHub Star Count (descending)**:
+
+| Repo | Description | Stars |
+| :--- | :--- | :--- |
+| **[Odoo CRM & Marketing](https://github.com/odoo/odoo)** | **Open-source suite featuring CRM & Customer Data Management.** Comprehensive platform for customer data, multi-channel marketing campaigns, lead scoring, and customer interaction analytics. | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) |
+| **[RudderStack](https://github.com/rudderlabs/rudder-server)** | **Mature warehouse-first open-source CDP.** Segment API-compatible event streaming, data pipelines, and reverse ETL engine for customer data warehouses. (ELv2 License). | [![Stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers) |
+| **[Jitsu](https://github.com/jitsucom/jitsu)** | **Open-source Segment alternative & event streaming pipeline.** Lightweight, MIT-licensed data collection framework for web/mobile apps to data warehouses. | [![Stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers) |
+| **[Pimcore](https://github.com/pimcore/pimcore)** | **Open-core Customer Data Platform (CDP) & Experience Cloud.** Consolidates customer data management, PIM, MDM, and digital asset management. | [![Stars](https://img.shields.io/github/stars/pimcore/pimcore?style=social&color=white)](https://github.com/pimcore/pimcore/stargazers) |
+| **[Tracardi](https://github.com/Tracardi/tracardi-api)** | **Composable open-source CDP engine.** API-first low-code platform for customer data collection, profile unification, and real-time marketing automation. | [![Stars](https://img.shields.io/github/stars/Tracardi/tracardi-api?style=social&color=white)](https://github.com/Tracardi/tracardi-api/stargazers) |
+| **[Apache Unomi](https://github.com/apache/unomi)** | **Apache Top-Level Project & OASIS CDP Reference Implementation.** Java-based customer data platform for profile management, privacy (GDPR), and personalization. | [![Stars](https://img.shields.io/github/stars/apache/unomi?style=social&color=white)](https://github.com/apache/unomi/stargazers) |
+| **[Cairo](https://github.com/outcome-driven-studio/cairo)** | **Self-hosted Segment alternative & AI-native CDP.** Node.js + PostgreSQL event pipeline with identity resolution, tracking plans, and LLM agent tracking MCP server. | [![Stars](https://img.shields.io/github/stars/outcome-driven-studio/cairo?style=social&color=white)](https://github.com/outcome-driven-studio/cairo/stargazers) |
+| **[LEO CDP](https://github.com/trieu/leo-cdp-framework)** | **AI-first open-source Customer Data Platform.** Privacy-friendly framework featuring ML customer 360, RFM segmentation, CLV predictive modeling, and LLM personalization. | [![Stars](https://img.shields.io/github/stars/trieu/leo-cdp-framework?style=social&color=white)](https://github.com/trieu/leo-cdp-framework/stargazers) |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple guidelines:
+
+1. Fork this repository.
+2. Edit `README.md` to add your proposed SaaS product or Open-Source CDP project.
+3. Ensure description remains factual, accurate, and includes valid pricing/star details.
+4. Open a Pull Request with a clear title and description.
+
+Check out [Awesome List Guidelines](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for general best practices.
+
+---
+
+## ☕ Support & Sponsorship
+
+If you found this curated list of Customer Data Platforms helpful, consider supporting the project:
+
+- 🌟 **Star this repository** on GitHub.
+- 🔀 **Fork and share** with fellow data engineers and marketing technology teams.
+- 💖 **Buy me a coffee / Sponsor the project**: Support further open-source research and maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated list** provided for educational and research purposes.
+- All product names, logos, and brands are property of their respective owners.
+- **Privacy & Compliance**: Customer Data Platforms process personal identifiable information (PII). Ensure strict compliance with global privacy regulations including GDPR, CCPA, and HIPAA.
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Customer-Data-Platform-CDP&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Customer-Data-Platform-CDP&type=date&legend=top-left)
